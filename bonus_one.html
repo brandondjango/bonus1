@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Predictive Search</title>
+	<link rel="stylesheet" href="bonus_one.css">
+</head>
+<body>
+	<h1 class="h1">Predictive Search</h1>
+	<div class="flexsearch">
+		<div class="flexsearch-wrapper">
+			<!-- You'll handle the form with js, so no need for method and action -->
+			<form class="flexsearch-form" id="mainForm">
+				<div class="flexsearch-input-wrapper">
+					<input id="input" class="flexsearch-input" type="search" placeholder="search" list="stuff">
+					<datalist class="flexsearch-input-wrapper" id="stuff">
+						<option class="flexsearch-input-wrapper" id ="option1" value="">
+						<option class="flexsearch-input-wrapper" id ="option2" value="">
+						<option class="flexsearch-input-wrapper" id ="option3" value="">
+						<option class="flexsearch-input-wrapper" id ="option4" value="">
+						<option class="flexsearch-input-wrapper" id ="option5" value="">
+					</datalist>
+					<p = "stuff"></p>
+				</div>
+				<input class="flexsearch-submit" type="submit" value="submit"/>
+			</form>
+		</div>
+	</div>
+	
+
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="bonus_one.js"></script>
+
+</body>
+</html>
